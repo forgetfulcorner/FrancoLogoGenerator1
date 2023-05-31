@@ -1,6 +1,6 @@
 let space = 8.5;
-let pixelX = 0.125;
-let pixelY = 4;
+let pixelX = 0.25;
+let pixelY = 6;
 
 let sizeX, sizeY;
 
