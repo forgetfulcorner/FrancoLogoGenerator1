@@ -11,8 +11,8 @@ let randRot;
 let speed = 3;
 
 // DEFINED FROM 0 to 1. 0 BEING TOP OF THE CANVAS, 1 BEING BOTTOM OF CANVAS.
-let runHeight = 0.25;
-let start = 0.5;
+let runHeight = 0.50;
+let start = 0.75;
 
 
 // F SHAPE DEFINITION
@@ -44,7 +44,7 @@ function setup() {
   totalHeight = runHeight * height;
   
   for (let i = 0; i < shapeArrayY.length; i++) {
-    shapeArrayY[i] = int(totalHeight * shapeArrayY[i]) + int(random(-10, 10));
+    shapeArrayY[i] = int(totalHeight * shapeArrayY[i]) + int(random(-5, 5));
   }
   
   for (let i = 0; i < shapeArrayX.length; i++) {
