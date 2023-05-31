@@ -1,6 +1,6 @@
-let space = 8.5;
-let pixelX = 0.5;
-let pixelY = 8;
+let space = 2.5;
+let pixelX = 0.125;
+let pixelY = 4;
 
 let sizeX, sizeY;
 
@@ -11,8 +11,8 @@ let randRot;
 let speed = 3;
 
 // DEFINED FROM 0 to 1. 0 BEING TOP OF THE CANVAS, 1 BEING BOTTOM OF CANVAS.
-let runHeight = 0.5;
-let start = 0.75;
+let runHeight = 0.25;
+let start = 0.5;
 
 
 // F SHAPE DEFINITION
