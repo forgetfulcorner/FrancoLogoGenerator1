@@ -1,4 +1,4 @@
-let space = 2.5;
+let space = 8.5;
 let pixelX = 0.125;
 let pixelY = 4;
 
