@@ -44,7 +44,7 @@ function setup() {
   totalHeight = runHeight * height;
   
   for (let i = 0; i < shapeArrayY.length; i++) {
-    shapeArrayY[i] = int(totalHeight * shapeArrayY[i]) + int(random(-5, 5));
+    shapeArrayY[i] = int(totalHeight * shapeArrayY[i]) + int(random(-20, 20));
   }
   
   for (let i = 0; i < shapeArrayX.length; i++) {
@@ -72,7 +72,7 @@ function draw() {
   
   for (let w = 0; w < sizeX ; w++){
     
-    for (let h = 0; h < shapeArrayX[currentLayer] + int(random(-5, 5)); h++){
+    for (let h = 0; h < shapeArrayX[currentLayer] + int(random(-10, 10)); h++){
       
       let n1 = noise(w * frameCount * 0.0001, 0.1)
       let n2 = noise(0.1, h * frameCount * 0.0001)
