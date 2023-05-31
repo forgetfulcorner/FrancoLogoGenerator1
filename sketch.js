@@ -33,13 +33,13 @@ function setup() {
   rectMode(CENTER);
   colorMode(HSB, 255)
   
-  // background(255);
+  background(255);
   
   randH = random(0, 255)
   randRot = random(-0.1, 1)
   // console.log(randRot)
   
-  // background(randH * 0.4, 150, 220, 40);
+  background(randH * 0.4, 150, 220, 40);
   
   totalHeight = runHeight * height;
   
